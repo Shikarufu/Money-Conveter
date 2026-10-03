@@ -90,6 +90,12 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Riels"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "cambodia" && temp2.value == "india"){
+        const solve=Number(input.value *  0.02369930);
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Riels"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
 
     //japan to all
     if(temp1.value == "japan" && temp2.value == "cambodia"){
@@ -152,6 +158,13 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Yens"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "japan" && temp2.value == "india"){
+        const solve=Number((input.value * 0.60934572));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Yens"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
+    
 
     //china to all
     if(temp1.value == "china" && temp2.value == "cambodia"){
@@ -213,6 +226,12 @@ function funConvert(){
         const num = input.value;
         clarify.innerText="Your input: "+num+" Yuans"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
+    }
+    else if(temp1.value == "china" && temp2.value == "india"){
+        const solve=Number((input.value * 14.34078813 ));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Yuans"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
     }
 
     //uk to all
@@ -276,6 +295,12 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Pounds"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "uk" && temp2.value == "india"){
+        const solve=Number((input.value * 127.36965160));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Pounds"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
 
     //south korea to all
     if(temp1.value == "south korea" && temp2.value == "cambodia"){
@@ -337,6 +362,12 @@ function funConvert(){
         const num = input.value;
         clarify.innerText="Your input: "+num+" Wons"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
+    }
+    else if(temp1.value == "south korea" && temp2.value == "india"){
+        const solve=Number((input.value * 0.07152756));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Wons"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
     }
     
     //singapore to all
@@ -400,6 +431,12 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Wons"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "singapore" && temp2.value == "india"){
+        const solve=Number((input.value * 75.19773340));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Wons"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
 
     //mexico to all
     if(temp1.value == "mexico" && temp2.value == "cambodia"){
@@ -462,6 +499,13 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Pesos"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "mexico" && temp2.value == "india"){
+        const solve=Number((input.value * 5.29666862));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Pesos"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
+     
 
     //philippines to all
     if(temp1.value == "philippines" && temp2.value == "cambodia"){
@@ -524,6 +568,12 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Wons"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
     }
+    else if(temp1.value == "philippines" && temp2.value == "india"){
+        const solve=Number((input.value * 1.53686507 ));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Wons"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
 
     //russia to all
     if(temp1.value == "russia" && temp2.value == "cambodia"){
@@ -580,8 +630,14 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Rubles"
         result.innerText="Result: "+solve.toFixed(2)+" Dollars";
     }
-    else if(temp1.value == "singapore" && temp2.value == "indonesia"){
-        const solve=Number((input.value * 219.76976045));
+    else if(temp1.value == "russia" && temp2.value == "indonesia"){
+        const solve=Number((input.value * 214.12));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rubles"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
+    }
+    else if(temp1.value == "russia" && temp2.value == "india"){
+        const solve=Number((input.value * 1.1518));
         const num = input.value;
         clarify.innerText="Your input: "+num+" Rubles"
         result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
@@ -648,6 +704,12 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Rupiahs"
         result.innerText="Result: "+solve.toFixed(2)+" Dollars";
     }
+    else if(temp1.value == "indonesia" && temp2.value == "india"){
+        const solve=Number((input.value * 0.00007456));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupiahs"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
 
     //usa to all
      if(temp1.value == "usa" && temp2.value == "cambodia"){
@@ -710,6 +772,81 @@ function funConvert(){
         clarify.innerText="Your input: "+num+" Dollars"
         result.innerText="Result: "+solve.toFixed(2)+" Dollars";
     }
+    else if(temp1.value == "usa" && temp2.value == "india"){
+        const solve=Number((input.value * 96.19059774));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Dollars"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupees";
+    }
+
+    //india to all
+    if(temp1.value == "india" && temp2.value == "cambodia"){
+        const solve=Number((input.value * 42.19532315 ));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Riels";
+    }
+    else if(temp1.value == "india" && temp2.value == "japan"){
+        const solve=Number((input.value * 1.64109297 ));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Yens";
+    }
+    else if(temp1.value == "india" && temp2.value == "china"){
+        const solve=Number((input.value * 0.06972153));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Yuans";
+    }
+    else if(temp1.value == "india" && temp2.value == "uk"){
+        const solve=Number((input.value *  0.00784706));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Pounds";
+    }
+    else if(temp1.value == "india" && temp2.value == "south korea"){
+        const solve=Number((input.value * 13.97673526));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Wons";
+    }
+    else if(temp1.value == "india" && temp2.value == "mexico"){
+        const solve=Number((input.value *  0.18871516));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Pesos";
+    }
+    else if(temp1.value == "india" && temp2.value == "philippines"){
+        const solve=Number((input.value * 0.65047470));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Pesos";
+    }
+    else if(temp1.value == "india" && temp2.value == "russia"){
+        const solve=Number((input.value * 0.87));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Rubles";
+    }
+    else if(temp1.value == "india" && temp2.value == "indonesia"){
+        const solve=Number(input.value * 186.02);
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Rupiahs";
+    }
+    else if(temp1.value == "india" && temp2.value == "singapore"){
+        const solve=Number((input.value * 0.01329526));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Dollars";
+    }
+    else if(temp1.value == "india" && temp2.value == "usa"){
+        const solve=Number((input.value * 0.01039163));
+        const num = input.value;
+        clarify.innerText="Your input: "+num+" Rupees"
+        result.innerText="Result: "+solve.toFixed(2)+" Dollars";
+    }
+    
    
 
 }
@@ -752,6 +889,8 @@ function checkSelection(){
         temp1.value == "indonesia" && temp2.value == "indonesia"
         ||
         temp1.value == "usa" && temp2.value == "usa"
+        || 
+        temp1.value == "india" && temp2.value == "india"
         
 
 
